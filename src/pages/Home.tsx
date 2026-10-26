@@ -7,6 +7,7 @@ import {
   stats,
 } from "../data/content";
 import { scrollToSection } from "../lib/scroll";
+import { asset } from "../lib/assets";
 import { HorizontalRail } from "../components/HorizontalRail";
 
 const locations = [
@@ -69,7 +70,7 @@ export function Home() {
         <div className="hero-bg" aria-hidden="true">
           <img
             className="hero-photo"
-            src="/images/hero-kata.png"
+            src={asset("images/hero-kata.png")}
             alt="Shito-ryu karate kata stance"
             width={1600}
             height={900}
@@ -139,7 +140,7 @@ export function Home() {
           </div>
           <div className="strip-visual strip-visual-brand reveal reveal-delay-1">
             <img
-              src="/images/about-brand.png"
+              src={asset("images/about-brand.png")}
               alt="Indo Japan Shito Ryu Karate Do · India emblem and kata practice"
               width={1024}
               height={1024}
@@ -237,7 +238,7 @@ export function Home() {
             <article className="program program-sakura h-card h-card-media">
               <img
                 className="program-media"
-                src="/images/program-kids.png"
+                src={asset("images/program-kids.png")}
                 alt="Kids karate"
                 width={640}
                 height={400}
@@ -255,7 +256,7 @@ export function Home() {
             <article className="program program-aqua h-card h-card-media">
               <img
                 className="program-media"
-                src="/images/program-adults.png"
+                src={asset("images/program-adults.png")}
                 alt="Adults karate"
                 width={640}
                 height={400}
@@ -271,7 +272,7 @@ export function Home() {
             </article>
             <article className="h-card h-card-banner">
               <img
-                src="/images/kata-forms.png"
+                src={asset("images/kata-forms.png")}
                 alt="Kata forms sequence"
                 width={800}
                 height={450}
@@ -361,7 +362,7 @@ export function Home() {
           <HorizontalRail label="Achievements · auto-scroll · hover to pause">
             <article className="h-card h-card-banner">
               <img
-                src="/images/achievements-banner.png"
+                src={asset("images/achievements-banner.png")}
                 alt="Dojo achievements"
                 width={800}
                 height={450}

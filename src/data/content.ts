@@ -1,5 +1,7 @@
 /** School content — replace names/photos/contact with your real details anytime. */
 
+import { asset } from "../lib/assets";
+
 export const school = {
   name: "Indo Japan Shito Ryu Karate Do · India",
   shortName: "IJSRKDI",
@@ -20,7 +22,7 @@ export const founder = {
     "Guides kids and adults programs across three dojos",
     "Committed to respect, grading excellence, and community growth",
   ],
-  photo: "/images/chief-instructor.png",
+  photo: asset("images/chief-instructor.png"),
   achievements: [
     "Building a traditional Shito-ryu school for families in Tamil Nadu",
     "Developing structured belt progression and competition readiness",
@@ -35,7 +37,7 @@ export const instructors = [
     role: "Founder / Chief Instructor",
     focus: "Shito-ryu · All levels",
     location: "Coimbatore",
-    photo: "/images/chief-instructor.png",
+    photo: asset("images/chief-instructor.png"),
   },
   {
     id: "inst-2",
@@ -43,7 +45,7 @@ export const instructors = [
     role: "Senior Instructor",
     focus: "Kata · Kids & adults",
     location: "Coimbatore",
-    photo: "/images/instructor-2.png",
+    photo: asset("images/instructor-2.png"),
   },
   {
     id: "inst-3",
@@ -51,7 +53,7 @@ export const instructors = [
     role: "Instructor",
     focus: "Kihon · Youth classes",
     location: "Kotagiri",
-    photo: "/images/instructor-3.png",
+    photo: asset("images/instructor-3.png"),
   },
   {
     id: "inst-4",
@@ -59,7 +61,7 @@ export const instructors = [
     role: "Assistant Instructor",
     focus: "Basics · Adult beginners",
     location: "Mettupalayam",
-    photo: "/images/instructor-2.png",
+    photo: asset("images/instructor-2.png"),
   },
   {
     id: "inst-5",
@@ -67,7 +69,7 @@ export const instructors = [
     role: "Assistant Instructor",
     focus: "Kata · Grading support",
     location: "Coimbatore",
-    photo: "/images/instructor-3.png",
+    photo: asset("images/instructor-3.png"),
   },
   {
     id: "inst-6",
@@ -75,7 +77,7 @@ export const instructors = [
     role: "Assistant Instructor",
     focus: "Youth development",
     location: "Kotagiri",
-    photo: "/images/instructor-1.png",
+    photo: asset("images/instructor-1.png"),
   },
 ];
 

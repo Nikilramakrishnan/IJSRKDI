@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { achievements, stats } from "../data/content";
+import { asset } from "../lib/assets";
 
 export function Achievements() {
   return (
@@ -17,7 +18,7 @@ export function Achievements() {
 
       <section className="kata-banner" aria-label="Achievements">
         <img
-          src="/images/achievements-banner.png"
+          src={asset("images/achievements-banner.png")}
           alt=""
           width={1600}
           height={900}

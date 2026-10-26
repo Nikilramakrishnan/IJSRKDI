@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { founder } from "../data/content";
+import { asset } from "../lib/assets";
 
 export function About() {
   return (
@@ -33,7 +34,7 @@ export function About() {
           </div>
           <div className="strip-visual strip-visual-brand reveal reveal-delay-1">
             <img
-              src="/images/about-brand.png"
+              src={asset("images/about-brand.png")}
               alt="Indo Japan Shito Ryu Karate Do · India emblem and kata practice"
               width={1024}
               height={1024}

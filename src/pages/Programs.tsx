@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { programsExtra } from "../data/content";
+import { asset } from "../lib/assets";
 
 export function Programs() {
   const tone = [
@@ -54,7 +55,7 @@ export function Programs() {
             <article className="program program-sakura reveal">
               <img
                 className="program-media"
-                src="/images/program-kids.png"
+                src={asset("images/program-kids.png")}
                 alt="Children learning karate with an instructor"
                 width={800}
                 height={500}
@@ -77,7 +78,7 @@ export function Programs() {
             <article className="program program-aqua reveal reveal-delay-1">
               <img
                 className="program-media"
-                src="/images/program-adults.png"
+                src={asset("images/program-adults.png")}
                 alt="Adult karate practitioner in kata practice"
                 width={800}
                 height={500}
@@ -103,7 +104,7 @@ export function Programs() {
 
       <section className="kata-banner" aria-label="Kata forms">
         <img
-          src="/images/kata-forms.png"
+          src={asset("images/kata-forms.png")}
           alt=""
           width={1600}
           height={900}
