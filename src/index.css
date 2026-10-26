@@ -1281,7 +1281,7 @@ ul {
   max-height: 15rem;
   object-fit: contain;
   object-position: center center;
-  background: #f5f5f5;
+  background: #0a0908;
   filter: none;
   flex-shrink: 0;
 }
@@ -1720,7 +1720,7 @@ ul {
   object-fit: contain;
   object-position: center center;
   display: block;
-  background: #f5f5f5;
+  background: #0a0908;
   filter: none;
 }
 
