@@ -1277,12 +1277,12 @@ ul {
 
 .instructor-card img {
   width: 100%;
-  aspect-ratio: 3 / 4;
-  max-height: 16rem;
+  aspect-ratio: 1 / 1;
+  max-height: 15rem;
   object-fit: contain;
   object-position: center center;
-  background: #0a0908;
-  filter: contrast(1.04) brightness(0.98);
+  background: #f5f5f5;
+  filter: none;
   flex-shrink: 0;
 }
 
@@ -1416,8 +1416,8 @@ ul {
 }
 
 .instructor-preview .instructor-card img {
-  aspect-ratio: 3 / 4;
-  max-height: 16rem;
+  aspect-ratio: 1 / 1;
+  max-height: 15rem;
   object-fit: contain;
 }
 
@@ -1526,8 +1526,8 @@ ul {
 
 .h-card-instructor img,
 .h-card-chief img {
-  aspect-ratio: 3 / 4;
-  max-height: 15.5rem;
+  aspect-ratio: 1 / 1;
+  max-height: 14.5rem;
 }
 
 .h-card.timeline-item {
@@ -1708,19 +1708,20 @@ ul {
   z-index: 1;
   background: linear-gradient(
     180deg,
-    transparent 42%,
-    rgba(7, 6, 5, 0.72) 100%
+    transparent 58%,
+    rgba(7, 6, 5, 0.55) 100%
   );
 }
 
 .chief-photo img {
   width: 100%;
-  aspect-ratio: 4 / 5;
+  aspect-ratio: 1 / 1;
   max-height: min(52vh, 26rem);
-  object-fit: cover;
-  object-position: center 12%;
+  object-fit: contain;
+  object-position: center center;
   display: block;
-  filter: contrast(1.06) saturate(0.95);
+  background: #f5f5f5;
+  filter: none;
 }
 
 .chief-photo-caption {
@@ -2360,8 +2361,8 @@ ul {
   }
 
   .instructor-card img {
-    aspect-ratio: 3 / 4;
-    max-height: 18rem;
+    aspect-ratio: 1 / 1;
+    max-height: 17rem;
   }
 
   .instructor-body {
@@ -2392,7 +2393,7 @@ ul {
 
   .h-card-instructor img,
   .h-card-chief img {
-    max-height: 17.5rem;
+    max-height: 16.5rem;
   }
 
   .h-rail-track {
